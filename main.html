@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bookmark</title>
+    <script src="main.js" defer></script>
+    <link rel="stylesheet" href="main.css">
+
+</head>
+<body>
+    <header>
+    <div class="container">
+    <h2>Bookmarker</h2>
+</div>
+</header>
+<div class="container">
+    <div class="well">
+        <div class="column">
+            <h2>Bookmark your favorite sites</h2>
+            <p>Site Name</p>
+            <input type="text" id="siteName" placeholder="Bookmark Name"/>
+            <p class="alert alert-error m-auto" id="nameError"></p>
+            <p>Site URL</p>
+            <input type="text" id="siteUrl" placeholder="website URL"/>
+            <div class="m-auto">
+                <button class="btn btn-primary" onclick="submit()">Submit</button>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container">
+    <div id="bookmarkList" class="column">
+        
+    </div>
+<footer>
+    <div class="container">
+        <p>&copy; 2021 Bookmarker Inc.</p>
+    </div>
+</footer>
+</body>
+</html>
